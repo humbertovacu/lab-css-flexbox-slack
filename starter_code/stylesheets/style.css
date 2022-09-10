@@ -5,3 +5,70 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+    width: 100%;
+}
+
+html {
+    font-size: 10px;
+    letter-spacing: 1.2px;
+}
+
+nav img {
+    width: 170px;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #2C303F;
+}
+
+.regular {
+    font-size: 2rem;
+    color: #5b5e6d;
+    
+}
+
+header {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#home-talking {
+    text-align: center;
+}
+
+.brand-images img {
+    width: 300px;
+}
+
+.brand-images > p {
+    text-align: center;
+}
+
+main {
+    background: #F4F3F4;
+    width: 100%;
+}
+
+#container-brand {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        width: 400px;
+    }
+    
+}
