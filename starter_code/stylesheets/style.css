@@ -68,7 +68,7 @@ header {
 }
 
 .brand-images img {
-    width: 150px;
+    width: 110px;
 }
 
 .brand-images > p {
@@ -84,6 +84,7 @@ main {
     background: #F4F3F4;
     width: 100%;
     padding-top: 8px;
+    padding-bottom: 70px;
 }
 
 #container-brand {
@@ -92,7 +93,7 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
 }
 
 #container-brand button {
@@ -153,7 +154,7 @@ nav ul {
     align-items: center;
 }
 
-#get-started > input {
+.email-btn {
     width: 232px;
     height: 32px;
     border-style: none;
@@ -162,8 +163,7 @@ nav ul {
     border-radius: 0.2em;
     border-color: #ced3db;
 }
-
-#get-started button {
+.get-started-btn {
     border-style: none;
     border-radius: 0.4em;
     height: 37px;
@@ -177,6 +177,7 @@ nav ul {
 #get-started p {
     font-size: 1.2rem;
     color: #5b5e6d;
+    letter-spacing: 0.3px;
 }
 
 #nav-bar {
@@ -188,6 +189,42 @@ nav ul {
     background-color: #e1e2e5;
     border-width: 0;   
 }
+
+#try-it {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#try-it p {
+    font-size: 1.2rem;
+    color: #5b5e6d;
+    letter-spacing: 0.3px;
+    margin-top: 2.1px;
+}
+
+#try-it input {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.6rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+
+#try-it-line {
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer img {
+    width: 83px;
+}
+
 
 
 @media screen and (max-width: 768px) {
