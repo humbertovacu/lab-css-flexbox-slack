@@ -225,7 +225,18 @@ footer img {
     width: 83px;
 }
 
+footer li {
+    font-size: 1.2rem;
+    line-height: 25px;
+}
 
+#footer-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
 
 @media screen and (max-width: 768px) {
     header img {
