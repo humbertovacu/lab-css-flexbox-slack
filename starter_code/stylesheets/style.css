@@ -6,31 +6,57 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
+
+
 body {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 html {
     font-size: 10px;
     letter-spacing: 1.2px;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
 }
 
 nav img {
-    width: 170px;
+    width: 65px;
+    padding-left: 20px;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 2.5rem;
     color: #2C303F;
+    padding-left: 12px;
 }
 
 .regular {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #5b5e6d;
+    width: 90%;
+    padding-left: 12px;
+    padding-bottom: 10px;
     
 }
 
 header {
+    padding-top: 55px;
     width: 95%;
     margin: 0 auto;
 }
@@ -40,7 +66,7 @@ header {
 }
 
 .brand-images img {
-    width: 300px;
+    width: 150px;
 }
 
 .brand-images > p {
@@ -66,9 +92,81 @@ h2 {
     text-align: center;
 }
 
+hr {
+    height: 0.5px;
+    width: 80%;
+    background-color: #ced3db;
+    border-width: 0;
+}
+
+nav > hr {
+    width: 100%;
+}
+
+nav ul {
+    display: none;
+}
+
+#hamb-menu {
+    width: 1.6em;
+    height: 1.2em;
+    background: linear-gradient(
+    to bottom, 
+    #5b5e6d, #5b5e6d 20%, 
+    white 20%, white 40%, 
+    #5b5e6d 40%, #5b5e6d 60%, 
+    white 60%, white 80%, 
+    #5b5e6d 80%, #5b5e6d 100%
+  );
+  margin-right: 30px;
+}
+
+#nav-div {
+    width:100%
+}
+
+#get-started {
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+}
+
+#get-started > input {
+    width: 232px;
+    height: 32px;
+    border-style: none;
+    border: solid;
+    border-width: 0.5px;
+    border-radius: 0.2em;
+    border-color: #ced3db;
+}
+
+#get-started button {
+    border-style: none;
+    border-radius: 0.4em;
+    height: 37px;
+    width: 237.5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    background-color: #192592;
+    
+}
+
+#nav-bar {
+    margin-top: 0;
+    position: fixed;
+    top: 43.8px;
+    width: 100%;
+    height: 0.5px;
+    background-color: #e1e2e5;
+    border-width: 0;   
+}
+
+
 @media screen and (max-width: 768px) {
     header img {
-        width: 400px;
+        width: 200px;
     }
     
 }
