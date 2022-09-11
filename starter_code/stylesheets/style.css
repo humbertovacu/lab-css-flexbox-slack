@@ -41,7 +41,7 @@ nav img {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     color: #2C303F;
     padding-left: 12px;
 }
@@ -52,6 +52,7 @@ h1 {
     width: 90%;
     padding-left: 12px;
     padding-bottom: 10px;
+    letter-spacing: 0.3px;
     
 }
 
@@ -63,6 +64,7 @@ header {
 
 #home-talking {
     text-align: center;
+    padding-top: 25px;
 }
 
 .brand-images img {
@@ -70,12 +72,18 @@ header {
 }
 
 .brand-images > p {
+    margin: 0 auto;
     text-align: center;
+    width: 80%;
+    font-size: 1.2rem;
+    padding-bottom: 25px;
+    letter-spacing: 0.3px;
 }
 
 main {
     background: #F4F3F4;
     width: 100%;
+    padding-top: 8px;
 }
 
 #container-brand {
@@ -87,9 +95,23 @@ main {
     gap: 40px;
 }
 
+#container-brand button {
+    border: solid 0.7px;
+    border-color: #192592;
+    border-radius: 0.4em;
+    height: 37px;
+    width: 237.5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #192592;
+    background-color: white;
+}
+
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    letter-spacing: 0.3px;
+    
 }
 
 hr {
@@ -150,15 +172,19 @@ nav ul {
     font-weight: bold;
     color: white;
     background-color: #192592;
-    
+}
+
+#get-started p {
+    font-size: 1.2rem;
+    color: #5b5e6d;
 }
 
 #nav-bar {
     margin-top: 0;
     position: fixed;
-    top: 43.8px;
+    top: 43.6px;
     width: 100%;
-    height: 0.5px;
+    height: 0.7px;
     background-color: #e1e2e5;
     border-width: 0;   
 }
@@ -166,7 +192,7 @@ nav ul {
 
 @media screen and (max-width: 768px) {
     header img {
-        width: 200px;
+        width: 220px;
     }
     
 }
