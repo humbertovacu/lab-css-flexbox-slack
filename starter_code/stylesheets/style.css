@@ -96,8 +96,26 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 5px;
+}
+
+#container-brand hr {
+    width: 100%;
+}
+
+#container-brand img {
+    margin-top: 10px ;
+    padding: 20px;
+}
+
+.brand-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 #container-brand button {
@@ -110,6 +128,7 @@ main {
     font-weight: bold;
     color: #192592;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -146,6 +165,13 @@ nav ul {
     #5b5e6d 80%, #5b5e6d 100%
   );
   margin-right: 30px;
+}
+
+
+#get-started-two {
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
 }
 
 #nav-div {
@@ -212,12 +238,15 @@ nav ul {
 #try-it input {
     margin-bottom: 15px;
     margin-top: 0;
+    height: 34px;
 }
 
 h3 {
     font-size: 1.6rem;
     letter-spacing: 0.3px;
     margin-bottom: 0;
+    text-align: center;
+    color: #2C303F;
 }
 
 #try-it-line {
@@ -266,6 +295,8 @@ footer li {
 .main-title {
     font-weight: bold;
 }
+
+
 
 
 #terms ul {
@@ -345,6 +376,8 @@ i {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
+        
+
     }
 
     #container-brand hr {
@@ -352,17 +385,21 @@ i {
     }
 
     .brand-group {
-        padding: 90px;
+        padding: 40px;
+        display: flex;
+        flex-direction: row;
     }
 
     #container-brand img {
         width: 200px;
+        margin-right: 30px;
     }
 
     .brand-images {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
     }
 
     #get-started {
@@ -382,4 +419,49 @@ i {
         width: 80%;
         font-size: 1.5rem;
     }
+
+    #try-it {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 10px 20px;
+    }
+
+    #get-started-two {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    #get-started-two input {
+        margin-right: 5px;
+    }
+
+    #try-it-two h3, p {
+        text-align: left;
+    }
+
+    #final {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        padding: 4px 20px;
+    }
+
+    #social-media {
+        display: flex;
+
+    }
+
+    #lang {
+        padding-right: 30px;
+    }
+
+
 }
